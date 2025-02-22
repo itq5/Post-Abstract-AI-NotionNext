@@ -153,7 +153,7 @@ function ChucklePostAI(AI_option) {
       const title = document.title;
       
       try {
-        const response = await fetch('替换成你自己的后端接口', {
+        const response = await fetch('http://summary.7ii.win', {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
