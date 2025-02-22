@@ -153,7 +153,7 @@ function ChucklePostAI(AI_option) {
       const title = document.title;
       
       try {
-        const response = await fetch('http://summary.7ii.win', {
+        const response = await fetch('https://summary.7ii.win/api/summary/?token=1213249990', {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
