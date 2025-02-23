@@ -178,3 +178,19 @@ export default {
 ```
 ---
 
+```js
+<script>
+    var article = document.getElementsByTagName("article")[0];
+    const btw = new BTWPlugin();
+    btw.init({
+        id: article.id,
+        blogId: '10006-1569167880593-908',
+        name: '程序猿DD',
+        qrcode: 'http://blog.didispace.com/css/images/weixin.jpg',
+        keyword: 'more',
+        btnText: '原创不易，完成人机检测，阅读全文',
+        cookieAge: 1,
+        displayPercentage: 0.4
+    });
+</script>
+```
